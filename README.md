@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import zsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsum@esm/index.mjs';
+import zsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsum@v0.1.1-esm/index.mjs';
 ```
 
 #### zsum( N, x, strideX )
@@ -151,7 +151,7 @@ var v = zsum.ndarray( 2, x, 2, 1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import zsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsum@esm/index.mjs';
+import zsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-zsum@v0.1.1-esm/index.mjs';
 
 var xbuf = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
